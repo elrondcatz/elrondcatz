@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "PixelFont";
+    src: url("/font/pixelfont.ttf") format("truetype"), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("/font/pixelfont.ttf") format("truetype");
+    /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "PixelFont", sans-serif;
+    text-transform: uppercase;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+q {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(219, 166, 20);
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.divider {
+    border: solid 0.2px rgba(34, 34, 34, 0.411);
+}
+
+.red {
+    color: rgb(223, 69, 30);
+    font-weight: 700;
+    text-align: center;
+}
+
+.blue {
+    color: rgb(28, 91, 226);
+    font-weight: 700;
+    text-align: center;
+}
+
+.green {
+    color: rgb(98, 192, 44);
+    font-weight: 700;
+    text-align: center;
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
+body {
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+}
+
+.header-logo img {
+    margin: 20px;
+    max-width: 300px;
+}
+
+.header-logo {
+    width: 50%;
+}
+
+.header-menu {
+    width: 50%;
+    text-align: center;
+    margin: auto 0px;
+    padding-right: 20px;
+}
+
+.header-menu li::marker {
+    display: none;
+}
+
+.content {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.left-side {
+    width: 40%;
+}
+
+.right-side {
+    width: 60%;
+}
+
+.adopt-a-cat {
+    text-align: center;
+}
+
+.adopt-a-cat q {
+    font-size: 30px;
+    background-color: rebeccapurple;
+}
+
+.adopt-a-cat a {
+    color: white;
+}
+
+.me {
+    font-size: 24px;
+}
+
+.family-presentation {
+    font-family: "PixelFont";
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 0px;
+}
+
+.family-team {
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.family-team img {
+    max-width: 185px;
+}
+
+.project-description {
+    margin-top: 50px;
+}
+
+.project-roadmap {
+    margin-top: 50px;
+}
+
+.footer {
+    padding-top: 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .content-wrapper {
+        display: block;
+    }
+    .left-side {
+        width: 100%;
+        text-align: center;
+    }
+    .right-side {
+        width: 100%;
+    }
+}
